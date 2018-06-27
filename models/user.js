@@ -5,6 +5,7 @@ function User(user){
 this.username=user.username;
 this.password=user.password;
 this.email =user.email;
+this.headimage=user.headimage;
 }
 
 module.exports=User;
@@ -15,7 +16,8 @@ User.prototype.save=function(cb){
     var user={
     	username:this.username,
     	password:this.password,
-    	email:this.email
+    	email:this.email,
+      headimage:this.headimage
     };
      mongodb.open(function(err,db){
        if(err){

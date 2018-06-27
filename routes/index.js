@@ -5,6 +5,8 @@ var  Post =require("../models/post.js");
 var  Comment=require("../models/comments.js");
 var express = require('express');
 var fs      =require("fs");
+//var formidable = require('formidable');
+var passport=require("passport");
 var router = express.Router();
 
 
@@ -36,8 +38,7 @@ router.get('/', function(req, res, next) {
 		if(err){
 			posts=[];
 		}
-		console.log(page+"-------");
-		  res.render('index', { 
+ 		  res.render('index', { 
 		  	     title: '主页' ,
 		         user:req.session.user,
 		         posts:posts,
@@ -61,53 +62,76 @@ router.get("/reg",function(req,res,next){
 router.post("/reg",checknotlogin);
 router.post("/reg",function(req,res,next){
 	//注册的表单提交
-   var username=req.body.username,
-        password=req.body.password,
-        password_re=req.body["password-repeat"];
+   // var form = new formidable.IncomingForm();
+   // form.encoding='utf-8';
+   // form.uploadDir="public/images/upload"; 
+   // form.keepExtensions=true;
+   // form.parse(req, function(err, fields, files) {
+   // var username=fields.username,
+   //      password=fields.password,
+   //      password_re=fields["password-repeat"],
+   //      headImageName=slipImagepath(files.fileField.path);
 
-   if(password!= password_re){
-   	return res.redirect("/reg");//返回注册页面
-   }
-   //通过散列值进行MD5加密；
-   var MD5=crypto.createHash("md5");
-   var password=MD5.update(password).digest("hjw"); 
-   var newuser =new User({
-   	username:username,
-   	password:password,
-   	email:req.body.email
-   });
+   // if(password!= password_re){
+   //  return res.redirect("/reg");//返回注册页面
+   // }
+   // //通过散列值进行MD5加密；
+   // var MD5=crypto.createHash("md5");
+   // var password=MD5.update(password).digest("hjw"); 
+   // var newuser =new User({
+   // 	username:username,
+   // 	password:password,
+  //  	email:req.body.email,
+  //   headimage:headImageName
+  //  });
     
-    User.get(newuser.username,function(err,user){
-    	if(user){
-    		req.flash("error","用户已存在！");
-    		return res.redirect("/reg");
-    	}
-    	//不存在执行新增用户
-    	newuser.save(function(err,newuser){
-    		if(err){
-    			req.flash("error",err);
-    		     return res.redirect("/reg");
-    		}
-    		req.session.user =user;
-    		req.flash("success","注册成功");
-            res.redirect("/");//注册成功
-    	});
-    });
+  //   User.get(newuser.username,function(err,user){
+  //   	if(user){
+  //   		req.flash("error","用户已存在！");
+  //   		return res.redirect("/reg");
+  //   	}
+  //   	//不存在执行新增用户
+  //   	newuser.save(function(err,newuser){
+  //   		if(err){
+  //   			req.flash("error",err);
+  //   		     return res.redirect("/reg");
+  //   		}
+  //   		req.session.user =user;
+  //   		req.flash("success","注册成功");
+  //           res.redirect("/");//注册成功
+  //   	});
+  //   });
+  // });
 });
 
+function slipImagepath(str){ 
+  var i= str.lastIndexOf("\\");
+   return str.slice(i+1,str.length);
+}  
 
 router.get("/login",checknotlogin);
-router.get("/login",function(req,res,next){
+router.get("/login",function(req,res){
 	res.render('login',{title:"登录",
           user:req.session.user,
          success:req.flash("success").toString(),
          error:req.flash("error").toString() 
          });
 });
+router.get("/login/github",passport.authenticate("github",{session:false}));
+router.get("/login/github/callback",passport.authenticate("github",{
+  session:false,
+  failUrlRedirect:"/login",
+  successFlash:"登入成功？"
+},function(req,res){
+  console.log(req.session);
+  req.session.user={name:"1111"}//,head:"https://gravatar.com/avatar/"+req.user._json.gravatar_id+"?s=48"};
+  res.redirect("/");   
+
+}));
 
 
 router.post("/login",checknotlogin);
-router.post("/login",function(req,res,next){
+router.post("/login",function(req,res){
    //登陆验证
     var username=req.body.username;
     var md5=crypto.createHash("md5");
