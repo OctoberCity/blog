@@ -1,0 +1,1530 @@
+[2020-05-06 08:50:17.747] [940137] [test.lierdalux.cn] [MYSQL]
+SHOW VARIABLES LIKE 'lower_case_%'
+
+[2020-05-06 08:50:17.792] [940137] [test.lierdalux.cn] [MYSQL]
+SHOW VARIABLES LIKE 'profiling'
+
+[2020-05-06 08:50:17.800] [940137] [test.lierdalux.cn] [MYSQL]
+SHOW DATABASES
+
+[2020-05-06 08:50:17.878] [940138] [test.lierdalux.cn] [MYSQL]
+SELECT @@character_set_database, @@collation_database
+
+[2020-05-06 08:50:17.891] [940138] [test.lierdalux.cn] [MYSQL]
+SHOW FULL TABLES WHERE Table_type != 'VIEW'
+
+[2020-05-06 08:50:18.516] [940138] [test.lierdalux.cn] [MYSQL]
+SHOW TABLE STATUS
+
+[2020-05-06 08:50:19.227] [940137] [test.lierdalux.cn] [MYSQL]
+SHOW DATABASES
+
+[2020-05-06 08:50:19.878] [940139] [test.lierdalux.cn] [MYSQL]
+SHOW FULL TABLES FROM `ibms` WHERE Table_type != 'VIEW'
+
+[2020-05-06 08:50:19.878] [940140] [test.lierdalux.cn] [MYSQL]
+SHOW FULL TABLES FROM `ibms` WHERE Table_type != 'VIEW'
+
+[2020-05-06 08:50:19.909] [940140] [test.lierdalux.cn] [MYSQL]
+SHOW FULL TABLES FROM `ibms` WHERE Table_type = 'VIEW'
+
+[2020-05-06 08:50:19.919] [940139] [test.lierdalux.cn] [MYSQL]
+SHOW FULL TABLES FROM `ibms` WHERE Table_type = 'VIEW'
+
+[2020-05-06 08:50:19.937] [940140] [test.lierdalux.cn] [MYSQL]
+SHOW PROCEDURE STATUS WHERE Db='ibms'
+
+[2020-05-06 08:50:19.937] [940139] [test.lierdalux.cn] [MYSQL]
+SHOW PROCEDURE STATUS WHERE Db='ibms'
+
+[2020-05-06 08:50:19.946] [940140] [test.lierdalux.cn] [MYSQL]
+SHOW FUNCTION STATUS WHERE Db='ibms'
+
+[2020-05-06 08:50:19.947] [940139] [test.lierdalux.cn] [MYSQL]
+SHOW FUNCTION STATUS WHERE Db='ibms'
+
+[2020-05-06 08:51:21.530] [129479] [¾Æµêh5] [MYSQL]
+SHOW VARIABLES LIKE 'lower_case_%'
+
+[2020-05-06 08:51:21.545] [129479] [¾Æµêh5] [MYSQL]
+SHOW VARIABLES LIKE 'profiling'
+
+[2020-05-06 08:51:21.559] [129479] [¾Æµêh5] [MYSQL]
+SHOW DATABASES
+
+[2020-05-06 08:51:23.811] [129480] [¾Æµêh5] [MYSQL]
+SELECT @@character_set_database, @@collation_database
+
+[2020-05-06 08:51:23.852] [129480] [¾Æµêh5] [MYSQL]
+SHOW FULL TABLES WHERE Table_type != 'VIEW'
+
+[2020-05-06 08:51:23.877] [129480] [¾Æµêh5] [MYSQL]
+SHOW TABLE STATUS
+
+[2020-05-06 08:51:28.738] [129481] [¾Æµêh5] [MYSQL]
+SHOW TABLE STATUS LIKE 'ddc'
+
+[2020-05-06 08:51:28.759] [129481] [¾Æµêh5] [MYSQL]
+SHOW ENGINES
+
+[2020-05-06 08:51:28.774] [129480] [¾Æµêh5] [MYSQL]
+SHOW CREATE TABLE `ddc`
+
+[2020-05-06 08:51:28.890] [129481] [¾Æµêh5] [MYSQL]
+SELECT * FROM `ddc` LIMIT 0, 1000
+
+[2020-05-06 08:51:28.944] [129481] [¾Æµêh5] [MYSQL]
+SHOW COLUMNS FROM `ibmshotel`.`ddc`
+
+[2020-05-06 08:51:31.452] [129481] [¾Æµêh5] [MYSQL]
+SELECT COUNT(1) FROM `ddc`
+
+[2020-05-06 08:51:31.560] [129481] [¾Æµêh5] [MYSQL]
+SELECT * FROM `ddc` LIMIT 5000, 1000
+
+[2020-05-06 08:51:31.637] [129481] [¾Æµêh5] [MYSQL]
+SHOW COLUMNS FROM `ibmshotel`.`ddc`
+
+[2020-05-06 08:52:54.438] [940146] [test.lierdalux.cn] [MYSQL]
+SHOW TABLE STATUS LIKE 'robottri'
+
+[2020-05-06 08:52:54.456] [940146] [test.lierdalux.cn] [MYSQL]
+SHOW ENGINES
+
+[2020-05-06 08:52:54.463] [940138] [test.lierdalux.cn] [MYSQL]
+SHOW CREATE TABLE `robottri`
+
+[2020-05-06 08:52:54.579] [940146] [test.lierdalux.cn] [MYSQL]
+SELECT * FROM `robottri` LIMIT 0, 1000
+
+[2020-05-06 08:52:54.588] [940146] [test.lierdalux.cn] [MYSQL]
+SHOW COLUMNS FROM `ibms`.`robottri`
+
+[2020-05-06 08:53:57.904] [940137] [test.lierdalux.cn] [MYSQL]
+SHOW CHARACTER SET
+
+[2020-05-06 08:53:57.918] [940137] [test.lierdalux.cn] [MYSQL]
+SHOW COLLATION
+
+[2020-05-06 08:53:58.335] [940138] [test.lierdalux.cn] [MYSQL]
+SHOW ENGINES
+
+[2020-05-06 08:53:58.483] [940138] [test.lierdalux.cn] [MYSQL]
+SHOW TABLE STATUS LIKE 'robottri'
+
+[2020-05-06 08:53:58.505] [940138] [test.lierdalux.cn] [MYSQL]
+SHOW CREATE TABLE `robottri`
+
+[2020-05-06 08:53:58.510] [940138] [test.lierdalux.cn] [MYSQL]
+SELECT TABLE_NAME, PARTITION_NAME, SUBPARTITION_NAME, PARTITION_METHOD, SUBPARTITION_METHOD, PARTITION_EXPRESSION, SUBPARTITION_EXPRESSION, PARTITION_DESCRIPTION, PARTITION_COMMENT, NODEGROUP, TABLESPACE_NAME FROM information_schema.PARTITIONS WHERE TABLE_SCHEMA LIKE 'ibms' AND NOT ISNULL(PARTITION_NAME) AND TABLE_NAME LIKE 'robottri' ORDER BY TABLE_NAME, PARTITION_NAME, PARTITION_ORDINAL_POSITION, SUBPARTITION_ORDINAL_POSITION
+
+[2020-05-06 08:53:58.558] [940138] [test.lierdalux.cn] [MYSQL]
+SHOW FULL COLUMNS FROM `robottri`
+
+[2020-05-06 08:53:58.567] [940138] [test.lierdalux.cn] [MYSQL]
+SHOW CREATE TABLE `robottri`
+
+[2020-05-06 08:53:58.573] [940138] [test.lierdalux.cn] [MYSQL]
+SELECT * FROM `information_schema`.`columns` WHERE TABLE_NAME='robottri' AND TABLE_SCHEMA='ibms'
+
+[2020-05-06 08:53:58.582] [940138] [test.lierdalux.cn] [MYSQL]
+SHOW INDEX FROM `robottri`
+
+[2020-05-06 08:53:58.590] [940138] [test.lierdalux.cn] [MYSQL]
+SELECT trigger_name, event_manipulation, event_object_table, action_statement, action_timing, DEFINER FROM information_schema.triggers WHERE BINARY event_object_schema='ibms' AND BINARY event_object_table='robottri'
+
+[2020-05-06 08:53:58.638] [940138] [test.lierdalux.cn] [MYSQL]
+SHOW CREATE TABLE `robottri`
+
+[2020-05-06 09:28:36.852] [940146] [test.lierdalux.cn] [MYSQL]
+SELECT * FROM `robottri` LIMIT 0, 1000
+
+[2020-05-06 09:28:36.877] [940146] [test.lierdalux.cn] [MYSQL]
+SHOW COLUMNS FROM `ibms`.`robottri`
+
+[2020-05-06 09:33:46.095] [940289] [test.lierdalux.cn] [MYSQL]
+SHOW TABLE STATUS LIKE 'a_buildingroom_user'
+
+[2020-05-06 09:33:46.115] [940289] [test.lierdalux.cn] [MYSQL]
+SHOW ENGINES
+
+[2020-05-06 09:33:46.123] [940138] [test.lierdalux.cn] [MYSQL]
+SHOW CREATE TABLE `a_buildingroom_user`
+
+[2020-05-06 09:33:46.246] [940289] [test.lierdalux.cn] [MYSQL]
+SELECT * FROM `a_buildingroom_user` LIMIT 0, 1000
+
+[2020-05-06 09:33:46.253] [940289] [test.lierdalux.cn] [MYSQL]
+SHOW COLUMNS FROM `ibms`.`a_buildingroom_user`
+
+[2020-05-06 09:33:55.296] [940289] [test.lierdalux.cn] [MYSQL]
+SELECT * FROM `a_buildingroom_user` LIMIT 0, 1000
+
+[2020-05-06 09:33:55.307] [940289] [test.lierdalux.cn] [MYSQL]
+SHOW COLUMNS FROM `ibms`.`a_buildingroom_user`
+
+[2020-05-06 09:43:58.675] [940338] [test.lierdalux.cn] [MYSQL]
+SHOW TABLE STATUS LIKE 'user_ddc'
+
+[2020-05-06 09:43:58.693] [940338] [test.lierdalux.cn] [MYSQL]
+SHOW ENGINES
+
+[2020-05-06 09:43:58.700] [940138] [test.lierdalux.cn] [MYSQL]
+SHOW CREATE TABLE `user_ddc`
+
+[2020-05-06 09:43:58.827] [940338] [test.lierdalux.cn] [MYSQL]
+SELECT * FROM `user_ddc` LIMIT 0, 1000
+
+[2020-05-06 09:43:58.840] [940338] [test.lierdalux.cn] [MYSQL]
+SHOW COLUMNS FROM `ibms`.`user_ddc`
+
+[2020-05-06 09:44:46.083] [940338] [test.lierdalux.cn] [MYSQL]
+DELETE FROM `user_ddc` WHERE (`id`='542')
+
+[2020-05-06 09:44:46.092] [940338] [test.lierdalux.cn] [MYSQL]
+DELETE FROM `user_ddc` WHERE (`id`='541')
+
+[2020-05-06 09:49:03.514] [940289] [test.lierdalux.cn] [MYSQL]
+SELECT * FROM `a_buildingroom_user` LIMIT 0, 1000
+
+[2020-05-06 09:49:03.528] [940289] [test.lierdalux.cn] [MYSQL]
+SHOW COLUMNS FROM `ibms`.`a_buildingroom_user`
+
+[2020-05-06 09:49:23.045] [940289] [test.lierdalux.cn] [MYSQL]
+SELECT * FROM `a_buildingroom_user` LIMIT 0, 1000
+
+[2020-05-06 09:49:23.058] [940289] [test.lierdalux.cn] [MYSQL]
+SHOW COLUMNS FROM `ibms`.`a_buildingroom_user`
+
+[2020-05-06 09:51:04.524] [940289] [test.lierdalux.cn] [MYSQL]
+SELECT * FROM `a_buildingroom_user` LIMIT 0, 1000
+
+[2020-05-06 09:51:04.534] [940289] [test.lierdalux.cn] [MYSQL]
+SHOW COLUMNS FROM `ibms`.`a_buildingroom_user`
+
+[2020-05-06 09:51:24.655] [940289] [test.lierdalux.cn] [MYSQL]
+SELECT * FROM `a_buildingroom_user` LIMIT 0, 1000
+
+[2020-05-06 09:51:24.664] [940289] [test.lierdalux.cn] [MYSQL]
+SHOW COLUMNS FROM `ibms`.`a_buildingroom_user`
+
+[2020-05-06 09:51:37.301] [940146] [test.lierdalux.cn] [MYSQL]
+SELECT * FROM `robottri` LIMIT 0, 1000
+
+[2020-05-06 09:51:37.309] [940146] [test.lierdalux.cn] [MYSQL]
+SHOW COLUMNS FROM `ibms`.`robottri`
+
+[2020-05-06 09:52:25.174] [940146] [test.lierdalux.cn] [MYSQL]
+SELECT * FROM `robottri` LIMIT 0, 1000
+
+[2020-05-06 09:52:25.188] [940146] [test.lierdalux.cn] [MYSQL]
+SHOW COLUMNS FROM `ibms`.`robottri`
+
+[2020-05-06 09:52:33.616] [940146] [test.lierdalux.cn] [MYSQL]
+DELETE FROM `robottri` WHERE (`id`='180')
+
+[2020-05-06 09:52:33.627] [940146] [test.lierdalux.cn] [MYSQL]
+DELETE FROM `robottri` WHERE (`id`='179')
+
+[2020-05-06 10:02:58.027] [940146] [test.lierdalux.cn] [MYSQL]
+SELECT * FROM `robottri` LIMIT 0, 1000
+
+[2020-05-06 10:02:58.035] [940146] [test.lierdalux.cn] [MYSQL]
+SHOW COLUMNS FROM `ibms`.`robottri`
+
+[2020-05-06 10:05:18.584] [940289] [test.lierdalux.cn] [MYSQL]
+SELECT * FROM `a_buildingroom_user` LIMIT 0, 1000
+
+[2020-05-06 10:05:18.608] [940289] [test.lierdalux.cn] [MYSQL]
+SHOW COLUMNS FROM `ibms`.`a_buildingroom_user`
+
+[2020-05-06 10:09:03.948] [940146] [test.lierdalux.cn] [MYSQL]
+SELECT * FROM `robottri` LIMIT 0, 1000
+
+[2020-05-06 10:09:03.956] [940146] [test.lierdalux.cn] [MYSQL]
+SHOW COLUMNS FROM `ibms`.`robottri`
+
+[2020-05-06 10:19:18.373] [940146] [test.lierdalux.cn] [MYSQL]
+SELECT * FROM `robottri` LIMIT 0, 1000
+
+[2020-05-06 10:19:18.446] [940146] [test.lierdalux.cn] [MYSQL]
+SHOW COLUMNS FROM `ibms`.`robottri`
+
+[2020-05-06 10:20:42.250] [940146] [test.lierdalux.cn] [MYSQL]
+SELECT * FROM `robottri` LIMIT 0, 1000
+
+[2020-05-06 10:20:42.313] [940146] [test.lierdalux.cn] [MYSQL]
+SHOW COLUMNS FROM `ibms`.`robottri`
+
+[2020-05-06 10:29:33.578] [940146] [test.lierdalux.cn] [MYSQL]
+SELECT * FROM `robottri` LIMIT 0, 1000
+
+[2020-05-06 10:29:33.590] [940146] [test.lierdalux.cn] [MYSQL]
+SHOW COLUMNS FROM `ibms`.`robottri`
+
+[2020-05-06 10:33:38.339] [940289] [test.lierdalux.cn] [MYSQL]
+SELECT * FROM `a_buildingroom_user` LIMIT 0, 1000
+
+[2020-05-06 10:33:38.364] [940289] [test.lierdalux.cn] [MYSQL]
+SHOW COLUMNS FROM `ibms`.`a_buildingroom_user`
+
+[2020-05-06 10:37:29.819] [940146] [test.lierdalux.cn] [MYSQL]
+SELECT * FROM `robottri` LIMIT 0, 1000
+
+[2020-05-06 10:37:29.832] [940146] [test.lierdalux.cn] [MYSQL]
+SHOW COLUMNS FROM `ibms`.`robottri`
+
+[2020-05-06 10:38:17.433] [940146] [test.lierdalux.cn] [MYSQL]
+SELECT * FROM `robottri` LIMIT 0, 1000
+
+[2020-05-06 10:38:17.489] [940146] [test.lierdalux.cn] [MYSQL]
+SHOW COLUMNS FROM `ibms`.`robottri`
+
+[2020-05-06 10:38:30.822] [940146] [test.lierdalux.cn] [MYSQL]
+SELECT * FROM `robottri` LIMIT 0, 1000
+
+[2020-05-06 10:38:30.829] [940146] [test.lierdalux.cn] [MYSQL]
+SHOW COLUMNS FROM `ibms`.`robottri`
+
+[2020-05-06 10:40:02.783] [940146] [test.lierdalux.cn] [MYSQL]
+SELECT * FROM `robottri` LIMIT 0, 1000
+
+[2020-05-06 10:40:02.809] [940146] [test.lierdalux.cn] [MYSQL]
+SHOW COLUMNS FROM `ibms`.`robottri`
+
+[2020-05-06 10:41:08.273] [940146] [test.lierdalux.cn] [MYSQL]
+SELECT * FROM `robottri` LIMIT 0, 1000
+
+[2020-05-06 10:41:08.283] [940146] [test.lierdalux.cn] [MYSQL]
+SHOW COLUMNS FROM `ibms`.`robottri`
+
+[2020-05-06 10:41:11.639] [940146] [test.lierdalux.cn] [MYSQL]
+SELECT * FROM `robottri` LIMIT 0, 1000
+
+[2020-05-06 10:41:11.648] [940146] [test.lierdalux.cn] [MYSQL]
+SHOW COLUMNS FROM `ibms`.`robottri`
+
+[2020-05-06 11:09:09.501] [940692] [test.lierdalux.cn] [MYSQL]
+SHOW TABLE STATUS LIKE 'backup'
+
+[2020-05-06 11:09:09.524] [940692] [test.lierdalux.cn] [MYSQL]
+SHOW ENGINES
+
+[2020-05-06 11:09:09.531] [940138] [test.lierdalux.cn] [MYSQL]
+SHOW CREATE TABLE `backup`
+
+[2020-05-06 11:09:09.644] [940692] [test.lierdalux.cn] [MYSQL]
+SELECT * FROM `backup` LIMIT 0, 1000
+
+[2020-05-06 11:09:09.666] [940692] [test.lierdalux.cn] [MYSQL]
+SHOW COLUMNS FROM `ibms`.`backup`
+
+[2020-05-06 11:09:24.199] [940138] [test.lierdalux.cn] [MYSQL]
+SHOW ENGINES
+
+[2020-05-06 11:09:39.006] [940138] [test.lierdalux.cn] [MYSQL]
+SHOW ENGINES
+
+[2020-05-06 11:09:39.129] [940138] [test.lierdalux.cn] [MYSQL]
+SHOW TABLE STATUS LIKE 'author'
+
+[2020-05-06 11:09:39.146] [940138] [test.lierdalux.cn] [MYSQL]
+SHOW CREATE TABLE `author`
+
+[2020-05-06 11:09:39.152] [940138] [test.lierdalux.cn] [MYSQL]
+SELECT TABLE_NAME, PARTITION_NAME, SUBPARTITION_NAME, PARTITION_METHOD, SUBPARTITION_METHOD, PARTITION_EXPRESSION, SUBPARTITION_EXPRESSION, PARTITION_DESCRIPTION, PARTITION_COMMENT, NODEGROUP, TABLESPACE_NAME FROM information_schema.PARTITIONS WHERE TABLE_SCHEMA LIKE 'ibms' AND NOT ISNULL(PARTITION_NAME) AND TABLE_NAME LIKE 'author' ORDER BY TABLE_NAME, PARTITION_NAME, PARTITION_ORDINAL_POSITION, SUBPARTITION_ORDINAL_POSITION
+
+[2020-05-06 11:09:39.199] [940138] [test.lierdalux.cn] [MYSQL]
+SHOW FULL COLUMNS FROM `author`
+
+[2020-05-06 11:09:39.209] [940138] [test.lierdalux.cn] [MYSQL]
+SHOW CREATE TABLE `author`
+
+[2020-05-06 11:09:39.216] [940138] [test.lierdalux.cn] [MYSQL]
+SELECT * FROM `information_schema`.`columns` WHERE TABLE_NAME='author' AND TABLE_SCHEMA='ibms'
+
+[2020-05-06 11:09:39.225] [940138] [test.lierdalux.cn] [MYSQL]
+SHOW INDEX FROM `author`
+
+[2020-05-06 11:09:39.234] [940138] [test.lierdalux.cn] [MYSQL]
+SELECT trigger_name, event_manipulation, event_object_table, action_statement, action_timing, DEFINER FROM information_schema.triggers WHERE BINARY event_object_schema='ibms' AND BINARY event_object_table='author'
+
+[2020-05-06 11:09:39.285] [940138] [test.lierdalux.cn] [MYSQL]
+SHOW CREATE TABLE `author`
+
+[2020-05-06 11:09:58.374] [940698] [test.lierdalux.cn] [MYSQL]
+SHOW TABLE STATUS LIKE 'button_name'
+
+[2020-05-06 11:09:58.396] [940698] [test.lierdalux.cn] [MYSQL]
+SHOW ENGINES
+
+[2020-05-06 11:09:58.405] [940138] [test.lierdalux.cn] [MYSQL]
+SHOW CREATE TABLE `button_name`
+
+[2020-05-06 11:09:58.505] [940698] [test.lierdalux.cn] [MYSQL]
+SELECT * FROM `button_name` LIMIT 0, 1000
+
+[2020-05-06 11:09:58.517] [940698] [test.lierdalux.cn] [MYSQL]
+SHOW COLUMNS FROM `ibms`.`button_name`
+
+[2020-05-06 11:10:01.245] [940138] [test.lierdalux.cn] [MYSQL]
+SHOW ENGINES
+
+[2020-05-06 11:10:01.381] [940138] [test.lierdalux.cn] [MYSQL]
+SHOW TABLE STATUS LIKE 'button_name'
+
+[2020-05-06 11:10:01.408] [940138] [test.lierdalux.cn] [MYSQL]
+SHOW CREATE TABLE `button_name`
+
+[2020-05-06 11:10:01.415] [940138] [test.lierdalux.cn] [MYSQL]
+SELECT TABLE_NAME, PARTITION_NAME, SUBPARTITION_NAME, PARTITION_METHOD, SUBPARTITION_METHOD, PARTITION_EXPRESSION, SUBPARTITION_EXPRESSION, PARTITION_DESCRIPTION, PARTITION_COMMENT, NODEGROUP, TABLESPACE_NAME FROM information_schema.PARTITIONS WHERE TABLE_SCHEMA LIKE 'ibms' AND NOT ISNULL(PARTITION_NAME) AND TABLE_NAME LIKE 'button_name' ORDER BY TABLE_NAME, PARTITION_NAME, PARTITION_ORDINAL_POSITION, SUBPARTITION_ORDINAL_POSITION
+
+[2020-05-06 11:10:01.463] [940138] [test.lierdalux.cn] [MYSQL]
+SHOW FULL COLUMNS FROM `button_name`
+
+[2020-05-06 11:10:01.470] [940138] [test.lierdalux.cn] [MYSQL]
+SHOW CREATE TABLE `button_name`
+
+[2020-05-06 11:10:01.477] [940138] [test.lierdalux.cn] [MYSQL]
+SELECT * FROM `information_schema`.`columns` WHERE TABLE_NAME='button_name' AND TABLE_SCHEMA='ibms'
+
+[2020-05-06 11:10:01.488] [940138] [test.lierdalux.cn] [MYSQL]
+SHOW INDEX FROM `button_name`
+
+[2020-05-06 11:10:01.495] [940138] [test.lierdalux.cn] [MYSQL]
+SELECT trigger_name, event_manipulation, event_object_table, action_statement, action_timing, DEFINER FROM information_schema.triggers WHERE BINARY event_object_schema='ibms' AND BINARY event_object_table='button_name'
+
+[2020-05-06 11:10:01.545] [940138] [test.lierdalux.cn] [MYSQL]
+SHOW CREATE TABLE `button_name`
+
+[2020-05-06 11:10:10.960] [940138] [test.lierdalux.cn] [MYSQL]
+SHOW ENGINES
+
+[2020-05-06 11:10:11.160] [940138] [test.lierdalux.cn] [MYSQL]
+SHOW TABLE STATUS LIKE 'buttonconfig'
+
+[2020-05-06 11:10:11.230] [940138] [test.lierdalux.cn] [MYSQL]
+SHOW CREATE TABLE `buttonconfig`
+
+[2020-05-06 11:10:11.277] [940138] [test.lierdalux.cn] [MYSQL]
+SELECT TABLE_NAME, PARTITION_NAME, SUBPARTITION_NAME, PARTITION_METHOD, SUBPARTITION_METHOD, PARTITION_EXPRESSION, SUBPARTITION_EXPRESSION, PARTITION_DESCRIPTION, PARTITION_COMMENT, NODEGROUP, TABLESPACE_NAME FROM information_schema.PARTITIONS WHERE TABLE_SCHEMA LIKE 'ibms' AND NOT ISNULL(PARTITION_NAME) AND TABLE_NAME LIKE 'buttonconfig' ORDER BY TABLE_NAME, PARTITION_NAME, PARTITION_ORDINAL_POSITION, SUBPARTITION_ORDINAL_POSITION
+
+[2020-05-06 11:10:11.364] [940138] [test.lierdalux.cn] [MYSQL]
+SHOW FULL COLUMNS FROM `buttonconfig`
+
+[2020-05-06 11:10:11.415] [940138] [test.lierdalux.cn] [MYSQL]
+SHOW CREATE TABLE `buttonconfig`
+
+[2020-05-06 11:10:11.465] [940138] [test.lierdalux.cn] [MYSQL]
+SELECT * FROM `information_schema`.`columns` WHERE TABLE_NAME='buttonconfig' AND TABLE_SCHEMA='ibms'
+
+[2020-05-06 11:10:11.518] [940138] [test.lierdalux.cn] [MYSQL]
+SHOW INDEX FROM `buttonconfig`
+
+[2020-05-06 11:10:11.575] [940138] [test.lierdalux.cn] [MYSQL]
+SELECT trigger_name, event_manipulation, event_object_table, action_statement, action_timing, DEFINER FROM information_schema.triggers WHERE BINARY event_object_schema='ibms' AND BINARY event_object_table='buttonconfig'
+
+[2020-05-06 11:10:11.663] [940138] [test.lierdalux.cn] [MYSQL]
+SHOW CREATE TABLE `buttonconfig`
+
+[2020-05-06 11:10:45.537] [940138] [test.lierdalux.cn] [MYSQL]
+SHOW ENGINES
+
+[2020-05-06 11:10:45.679] [940138] [test.lierdalux.cn] [MYSQL]
+SHOW TABLE STATUS LIKE 'company'
+
+[2020-05-06 11:10:45.699] [940138] [test.lierdalux.cn] [MYSQL]
+SHOW CREATE TABLE `company`
+
+[2020-05-06 11:10:45.705] [940138] [test.lierdalux.cn] [MYSQL]
+SELECT TABLE_NAME, PARTITION_NAME, SUBPARTITION_NAME, PARTITION_METHOD, SUBPARTITION_METHOD, PARTITION_EXPRESSION, SUBPARTITION_EXPRESSION, PARTITION_DESCRIPTION, PARTITION_COMMENT, NODEGROUP, TABLESPACE_NAME FROM information_schema.PARTITIONS WHERE TABLE_SCHEMA LIKE 'ibms' AND NOT ISNULL(PARTITION_NAME) AND TABLE_NAME LIKE 'company' ORDER BY TABLE_NAME, PARTITION_NAME, PARTITION_ORDINAL_POSITION, SUBPARTITION_ORDINAL_POSITION
+
+[2020-05-06 11:10:45.755] [940138] [test.lierdalux.cn] [MYSQL]
+SHOW FULL COLUMNS FROM `company`
+
+[2020-05-06 11:10:45.764] [940138] [test.lierdalux.cn] [MYSQL]
+SHOW CREATE TABLE `company`
+
+[2020-05-06 11:10:45.772] [940138] [test.lierdalux.cn] [MYSQL]
+SELECT * FROM `information_schema`.`columns` WHERE TABLE_NAME='company' AND TABLE_SCHEMA='ibms'
+
+[2020-05-06 11:10:45.788] [940138] [test.lierdalux.cn] [MYSQL]
+SHOW INDEX FROM `company`
+
+[2020-05-06 11:10:45.795] [940138] [test.lierdalux.cn] [MYSQL]
+SELECT trigger_name, event_manipulation, event_object_table, action_statement, action_timing, DEFINER FROM information_schema.triggers WHERE BINARY event_object_schema='ibms' AND BINARY event_object_table='company'
+
+[2020-05-06 11:10:45.845] [940138] [test.lierdalux.cn] [MYSQL]
+SHOW CREATE TABLE `company`
+
+[2020-05-06 11:11:00.993] [940138] [test.lierdalux.cn] [MYSQL]
+SHOW ENGINES
+
+[2020-05-06 11:11:01.115] [940138] [test.lierdalux.cn] [MYSQL]
+SHOW TABLE STATUS LIKE 'ddc'
+
+[2020-05-06 11:11:01.132] [940138] [test.lierdalux.cn] [MYSQL]
+SHOW CREATE TABLE `ddc`
+
+[2020-05-06 11:11:01.139] [940138] [test.lierdalux.cn] [MYSQL]
+SELECT TABLE_NAME, PARTITION_NAME, SUBPARTITION_NAME, PARTITION_METHOD, SUBPARTITION_METHOD, PARTITION_EXPRESSION, SUBPARTITION_EXPRESSION, PARTITION_DESCRIPTION, PARTITION_COMMENT, NODEGROUP, TABLESPACE_NAME FROM information_schema.PARTITIONS WHERE TABLE_SCHEMA LIKE 'ibms' AND NOT ISNULL(PARTITION_NAME) AND TABLE_NAME LIKE 'ddc' ORDER BY TABLE_NAME, PARTITION_NAME, PARTITION_ORDINAL_POSITION, SUBPARTITION_ORDINAL_POSITION
+
+[2020-05-06 11:11:01.187] [940138] [test.lierdalux.cn] [MYSQL]
+SHOW FULL COLUMNS FROM `ddc`
+
+[2020-05-06 11:11:01.193] [940138] [test.lierdalux.cn] [MYSQL]
+SHOW CREATE TABLE `ddc`
+
+[2020-05-06 11:11:01.199] [940138] [test.lierdalux.cn] [MYSQL]
+SELECT * FROM `information_schema`.`columns` WHERE TABLE_NAME='ddc' AND TABLE_SCHEMA='ibms'
+
+[2020-05-06 11:11:01.214] [940138] [test.lierdalux.cn] [MYSQL]
+SHOW INDEX FROM `ddc`
+
+[2020-05-06 11:11:01.221] [940138] [test.lierdalux.cn] [MYSQL]
+SELECT trigger_name, event_manipulation, event_object_table, action_statement, action_timing, DEFINER FROM information_schema.triggers WHERE BINARY event_object_schema='ibms' AND BINARY event_object_table='ddc'
+
+[2020-05-06 11:11:01.271] [940138] [test.lierdalux.cn] [MYSQL]
+SHOW CREATE TABLE `ddc`
+
+[2020-05-06 11:11:17.668] [940138] [test.lierdalux.cn] [MYSQL]
+SHOW ENGINES
+
+[2020-05-06 11:11:17.791] [940138] [test.lierdalux.cn] [MYSQL]
+SHOW TABLE STATUS LIKE 'devicetype'
+
+[2020-05-06 11:11:17.829] [940138] [test.lierdalux.cn] [MYSQL]
+SHOW CREATE TABLE `devicetype`
+
+[2020-05-06 11:11:17.839] [940138] [test.lierdalux.cn] [MYSQL]
+SELECT TABLE_NAME, PARTITION_NAME, SUBPARTITION_NAME, PARTITION_METHOD, SUBPARTITION_METHOD, PARTITION_EXPRESSION, SUBPARTITION_EXPRESSION, PARTITION_DESCRIPTION, PARTITION_COMMENT, NODEGROUP, TABLESPACE_NAME FROM information_schema.PARTITIONS WHERE TABLE_SCHEMA LIKE 'ibms' AND NOT ISNULL(PARTITION_NAME) AND TABLE_NAME LIKE 'devicetype' ORDER BY TABLE_NAME, PARTITION_NAME, PARTITION_ORDINAL_POSITION, SUBPARTITION_ORDINAL_POSITION
+
+[2020-05-06 11:11:17.890] [940138] [test.lierdalux.cn] [MYSQL]
+SHOW FULL COLUMNS FROM `devicetype`
+
+[2020-05-06 11:11:17.906] [940138] [test.lierdalux.cn] [MYSQL]
+SHOW CREATE TABLE `devicetype`
+
+[2020-05-06 11:11:17.924] [940138] [test.lierdalux.cn] [MYSQL]
+SELECT * FROM `information_schema`.`columns` WHERE TABLE_NAME='devicetype' AND TABLE_SCHEMA='ibms'
+
+[2020-05-06 11:11:17.949] [940138] [test.lierdalux.cn] [MYSQL]
+SHOW INDEX FROM `devicetype`
+
+[2020-05-06 11:11:17.958] [940138] [test.lierdalux.cn] [MYSQL]
+SELECT trigger_name, event_manipulation, event_object_table, action_statement, action_timing, DEFINER FROM information_schema.triggers WHERE BINARY event_object_schema='ibms' AND BINARY event_object_table='devicetype'
+
+[2020-05-06 11:11:18.009] [940138] [test.lierdalux.cn] [MYSQL]
+SHOW CREATE TABLE `devicetype`
+
+[2020-05-06 11:11:47.458] [940138] [test.lierdalux.cn] [MYSQL]
+SHOW ENGINES
+
+[2020-05-06 11:11:47.567] [940138] [test.lierdalux.cn] [MYSQL]
+SHOW TABLE STATUS LIKE 'devicework'
+
+[2020-05-06 11:11:47.589] [940138] [test.lierdalux.cn] [MYSQL]
+SHOW CREATE TABLE `devicework`
+
+[2020-05-06 11:11:47.595] [940138] [test.lierdalux.cn] [MYSQL]
+SELECT TABLE_NAME, PARTITION_NAME, SUBPARTITION_NAME, PARTITION_METHOD, SUBPARTITION_METHOD, PARTITION_EXPRESSION, SUBPARTITION_EXPRESSION, PARTITION_DESCRIPTION, PARTITION_COMMENT, NODEGROUP, TABLESPACE_NAME FROM information_schema.PARTITIONS WHERE TABLE_SCHEMA LIKE 'ibms' AND NOT ISNULL(PARTITION_NAME) AND TABLE_NAME LIKE 'devicework' ORDER BY TABLE_NAME, PARTITION_NAME, PARTITION_ORDINAL_POSITION, SUBPARTITION_ORDINAL_POSITION
+
+[2020-05-06 11:11:47.645] [940138] [test.lierdalux.cn] [MYSQL]
+SHOW FULL COLUMNS FROM `devicework`
+
+[2020-05-06 11:11:47.653] [940138] [test.lierdalux.cn] [MYSQL]
+SHOW CREATE TABLE `devicework`
+
+[2020-05-06 11:11:47.660] [940138] [test.lierdalux.cn] [MYSQL]
+SELECT * FROM `information_schema`.`columns` WHERE TABLE_NAME='devicework' AND TABLE_SCHEMA='ibms'
+
+[2020-05-06 11:11:47.672] [940138] [test.lierdalux.cn] [MYSQL]
+SHOW INDEX FROM `devicework`
+
+[2020-05-06 11:11:47.680] [940138] [test.lierdalux.cn] [MYSQL]
+SELECT trigger_name, event_manipulation, event_object_table, action_statement, action_timing, DEFINER FROM information_schema.triggers WHERE BINARY event_object_schema='ibms' AND BINARY event_object_table='devicework'
+
+[2020-05-06 11:11:47.730] [940138] [test.lierdalux.cn] [MYSQL]
+SHOW CREATE TABLE `devicework`
+
+[2020-05-06 11:12:06.341] [940138] [test.lierdalux.cn] [MYSQL]
+SHOW ENGINES
+
+[2020-05-06 11:12:06.549] [940138] [test.lierdalux.cn] [MYSQL]
+SHOW TABLE STATUS LIKE 'hotel_config'
+
+[2020-05-06 11:12:06.569] [940138] [test.lierdalux.cn] [MYSQL]
+SHOW CREATE TABLE `hotel_config`
+
+[2020-05-06 11:12:06.575] [940138] [test.lierdalux.cn] [MYSQL]
+SELECT TABLE_NAME, PARTITION_NAME, SUBPARTITION_NAME, PARTITION_METHOD, SUBPARTITION_METHOD, PARTITION_EXPRESSION, SUBPARTITION_EXPRESSION, PARTITION_DESCRIPTION, PARTITION_COMMENT, NODEGROUP, TABLESPACE_NAME FROM information_schema.PARTITIONS WHERE TABLE_SCHEMA LIKE 'ibms' AND NOT ISNULL(PARTITION_NAME) AND TABLE_NAME LIKE 'hotel_config' ORDER BY TABLE_NAME, PARTITION_NAME, PARTITION_ORDINAL_POSITION, SUBPARTITION_ORDINAL_POSITION
+
+[2020-05-06 11:12:06.624] [940138] [test.lierdalux.cn] [MYSQL]
+SHOW FULL COLUMNS FROM `hotel_config`
+
+[2020-05-06 11:12:06.634] [940138] [test.lierdalux.cn] [MYSQL]
+SHOW CREATE TABLE `hotel_config`
+
+[2020-05-06 11:12:06.641] [940138] [test.lierdalux.cn] [MYSQL]
+SELECT * FROM `information_schema`.`columns` WHERE TABLE_NAME='hotel_config' AND TABLE_SCHEMA='ibms'
+
+[2020-05-06 11:12:06.657] [940138] [test.lierdalux.cn] [MYSQL]
+SHOW INDEX FROM `hotel_config`
+
+[2020-05-06 11:12:06.682] [940138] [test.lierdalux.cn] [MYSQL]
+SELECT trigger_name, event_manipulation, event_object_table, action_statement, action_timing, DEFINER FROM information_schema.triggers WHERE BINARY event_object_schema='ibms' AND BINARY event_object_table='hotel_config'
+
+[2020-05-06 11:12:06.752] [940138] [test.lierdalux.cn] [MYSQL]
+SHOW CREATE TABLE `hotel_config`
+
+[2020-05-06 11:12:14.716] [940707] [test.lierdalux.cn] [MYSQL]
+SHOW TABLE STATUS LIKE 'hotel_secret'
+
+[2020-05-06 11:12:14.738] [940707] [test.lierdalux.cn] [MYSQL]
+SHOW ENGINES
+
+[2020-05-06 11:12:14.745] [940138] [test.lierdalux.cn] [MYSQL]
+SHOW CREATE TABLE `hotel_secret`
+
+[2020-05-06 11:12:14.891] [940707] [test.lierdalux.cn] [MYSQL]
+SELECT * FROM `hotel_secret` LIMIT 0, 0
+
+[2020-05-06 11:12:14.898] [940707] [test.lierdalux.cn] [MYSQL]
+SELECT * FROM `hotel_secret` LIMIT 0, 1000
+
+[2020-05-06 11:12:14.905] [940707] [test.lierdalux.cn] [MYSQL]
+SHOW COLUMNS FROM `ibms`.`hotel_secret`
+
+[2020-05-06 11:12:23.583] [940138] [test.lierdalux.cn] [MYSQL]
+SHOW ENGINES
+
+[2020-05-06 11:12:23.725] [940138] [test.lierdalux.cn] [MYSQL]
+SHOW TABLE STATUS LIKE 'housetype'
+
+[2020-05-06 11:12:23.745] [940138] [test.lierdalux.cn] [MYSQL]
+SHOW CREATE TABLE `housetype`
+
+[2020-05-06 11:12:23.752] [940138] [test.lierdalux.cn] [MYSQL]
+SELECT TABLE_NAME, PARTITION_NAME, SUBPARTITION_NAME, PARTITION_METHOD, SUBPARTITION_METHOD, PARTITION_EXPRESSION, SUBPARTITION_EXPRESSION, PARTITION_DESCRIPTION, PARTITION_COMMENT, NODEGROUP, TABLESPACE_NAME FROM information_schema.PARTITIONS WHERE TABLE_SCHEMA LIKE 'ibms' AND NOT ISNULL(PARTITION_NAME) AND TABLE_NAME LIKE 'housetype' ORDER BY TABLE_NAME, PARTITION_NAME, PARTITION_ORDINAL_POSITION, SUBPARTITION_ORDINAL_POSITION
+
+[2020-05-06 11:12:23.801] [940138] [test.lierdalux.cn] [MYSQL]
+SHOW FULL COLUMNS FROM `housetype`
+
+[2020-05-06 11:12:23.808] [940138] [test.lierdalux.cn] [MYSQL]
+SHOW CREATE TABLE `housetype`
+
+[2020-05-06 11:12:23.813] [940138] [test.lierdalux.cn] [MYSQL]
+SELECT * FROM `information_schema`.`columns` WHERE TABLE_NAME='housetype' AND TABLE_SCHEMA='ibms'
+
+[2020-05-06 11:12:23.824] [940138] [test.lierdalux.cn] [MYSQL]
+SHOW INDEX FROM `housetype`
+
+[2020-05-06 11:12:23.831] [940138] [test.lierdalux.cn] [MYSQL]
+SELECT trigger_name, event_manipulation, event_object_table, action_statement, action_timing, DEFINER FROM information_schema.triggers WHERE BINARY event_object_schema='ibms' AND BINARY event_object_table='housetype'
+
+[2020-05-06 11:12:23.881] [940138] [test.lierdalux.cn] [MYSQL]
+SHOW CREATE TABLE `housetype`
+
+[2020-05-06 11:13:05.011] [940711] [test.lierdalux.cn] [MYSQL]
+SHOW TABLE STATUS LIKE 'log_servers'
+
+[2020-05-06 11:13:05.031] [940711] [test.lierdalux.cn] [MYSQL]
+SHOW ENGINES
+
+[2020-05-06 11:13:05.038] [940138] [test.lierdalux.cn] [MYSQL]
+SHOW CREATE TABLE `log_servers`
+
+[2020-05-06 11:13:05.160] [940711] [test.lierdalux.cn] [MYSQL]
+SELECT * FROM `log_servers` LIMIT 0, 1000
+
+[2020-05-06 11:13:05.194] [940711] [test.lierdalux.cn] [MYSQL]
+SHOW COLUMNS FROM `ibms`.`log_servers`
+
+[2020-05-06 11:13:08.713] [940138] [test.lierdalux.cn] [MYSQL]
+SHOW ENGINES
+
+[2020-05-06 11:13:08.830] [940138] [test.lierdalux.cn] [MYSQL]
+SHOW TABLE STATUS LIKE 'log_servers'
+
+[2020-05-06 11:13:08.847] [940138] [test.lierdalux.cn] [MYSQL]
+SHOW CREATE TABLE `log_servers`
+
+[2020-05-06 11:13:08.854] [940138] [test.lierdalux.cn] [MYSQL]
+SELECT TABLE_NAME, PARTITION_NAME, SUBPARTITION_NAME, PARTITION_METHOD, SUBPARTITION_METHOD, PARTITION_EXPRESSION, SUBPARTITION_EXPRESSION, PARTITION_DESCRIPTION, PARTITION_COMMENT, NODEGROUP, TABLESPACE_NAME FROM information_schema.PARTITIONS WHERE TABLE_SCHEMA LIKE 'ibms' AND NOT ISNULL(PARTITION_NAME) AND TABLE_NAME LIKE 'log_servers' ORDER BY TABLE_NAME, PARTITION_NAME, PARTITION_ORDINAL_POSITION, SUBPARTITION_ORDINAL_POSITION
+
+[2020-05-06 11:13:08.903] [940138] [test.lierdalux.cn] [MYSQL]
+SHOW FULL COLUMNS FROM `log_servers`
+
+[2020-05-06 11:13:08.910] [940138] [test.lierdalux.cn] [MYSQL]
+SHOW CREATE TABLE `log_servers`
+
+[2020-05-06 11:13:08.916] [940138] [test.lierdalux.cn] [MYSQL]
+SELECT * FROM `information_schema`.`columns` WHERE TABLE_NAME='log_servers' AND TABLE_SCHEMA='ibms'
+
+[2020-05-06 11:13:08.926] [940138] [test.lierdalux.cn] [MYSQL]
+SHOW INDEX FROM `log_servers`
+
+[2020-05-06 11:13:08.934] [940138] [test.lierdalux.cn] [MYSQL]
+SELECT trigger_name, event_manipulation, event_object_table, action_statement, action_timing, DEFINER FROM information_schema.triggers WHERE BINARY event_object_schema='ibms' AND BINARY event_object_table='log_servers'
+
+[2020-05-06 11:13:08.983] [940138] [test.lierdalux.cn] [MYSQL]
+SHOW CREATE TABLE `log_servers`
+
+[2020-05-06 11:13:39.411] [940138] [test.lierdalux.cn] [MYSQL]
+SHOW ENGINES
+
+[2020-05-06 11:13:39.539] [940138] [test.lierdalux.cn] [MYSQL]
+SHOW TABLE STATUS LIKE 'robot'
+
+[2020-05-06 11:13:39.560] [940138] [test.lierdalux.cn] [MYSQL]
+SHOW CREATE TABLE `robot`
+
+[2020-05-06 11:13:39.569] [940138] [test.lierdalux.cn] [MYSQL]
+SELECT TABLE_NAME, PARTITION_NAME, SUBPARTITION_NAME, PARTITION_METHOD, SUBPARTITION_METHOD, PARTITION_EXPRESSION, SUBPARTITION_EXPRESSION, PARTITION_DESCRIPTION, PARTITION_COMMENT, NODEGROUP, TABLESPACE_NAME FROM information_schema.PARTITIONS WHERE TABLE_SCHEMA LIKE 'ibms' AND NOT ISNULL(PARTITION_NAME) AND TABLE_NAME LIKE 'robot' ORDER BY TABLE_NAME, PARTITION_NAME, PARTITION_ORDINAL_POSITION, SUBPARTITION_ORDINAL_POSITION
+
+[2020-05-06 11:13:39.620] [940138] [test.lierdalux.cn] [MYSQL]
+SHOW FULL COLUMNS FROM `robot`
+
+[2020-05-06 11:13:39.628] [940138] [test.lierdalux.cn] [MYSQL]
+SHOW CREATE TABLE `robot`
+
+[2020-05-06 11:13:39.633] [940138] [test.lierdalux.cn] [MYSQL]
+SELECT * FROM `information_schema`.`columns` WHERE TABLE_NAME='robot' AND TABLE_SCHEMA='ibms'
+
+[2020-05-06 11:13:39.642] [940138] [test.lierdalux.cn] [MYSQL]
+SHOW INDEX FROM `robot`
+
+[2020-05-06 11:13:39.651] [940138] [test.lierdalux.cn] [MYSQL]
+SELECT trigger_name, event_manipulation, event_object_table, action_statement, action_timing, DEFINER FROM information_schema.triggers WHERE BINARY event_object_schema='ibms' AND BINARY event_object_table='robot'
+
+[2020-05-06 11:13:39.701] [940138] [test.lierdalux.cn] [MYSQL]
+SHOW CREATE TABLE `robot`
+
+[2020-05-06 11:14:01.747] [940138] [test.lierdalux.cn] [MYSQL]
+SHOW ENGINES
+
+[2020-05-06 11:14:01.898] [940138] [test.lierdalux.cn] [MYSQL]
+SHOW TABLE STATUS LIKE 'robotbrand'
+
+[2020-05-06 11:14:01.919] [940138] [test.lierdalux.cn] [MYSQL]
+SHOW CREATE TABLE `robotbrand`
+
+[2020-05-06 11:14:01.933] [940138] [test.lierdalux.cn] [MYSQL]
+SELECT TABLE_NAME, PARTITION_NAME, SUBPARTITION_NAME, PARTITION_METHOD, SUBPARTITION_METHOD, PARTITION_EXPRESSION, SUBPARTITION_EXPRESSION, PARTITION_DESCRIPTION, PARTITION_COMMENT, NODEGROUP, TABLESPACE_NAME FROM information_schema.PARTITIONS WHERE TABLE_SCHEMA LIKE 'ibms' AND NOT ISNULL(PARTITION_NAME) AND TABLE_NAME LIKE 'robotbrand' ORDER BY TABLE_NAME, PARTITION_NAME, PARTITION_ORDINAL_POSITION, SUBPARTITION_ORDINAL_POSITION
+
+[2020-05-06 11:14:01.982] [940138] [test.lierdalux.cn] [MYSQL]
+SHOW FULL COLUMNS FROM `robotbrand`
+
+[2020-05-06 11:14:01.989] [940138] [test.lierdalux.cn] [MYSQL]
+SHOW CREATE TABLE `robotbrand`
+
+[2020-05-06 11:14:01.996] [940138] [test.lierdalux.cn] [MYSQL]
+SELECT * FROM `information_schema`.`columns` WHERE TABLE_NAME='robotbrand' AND TABLE_SCHEMA='ibms'
+
+[2020-05-06 11:14:02.005] [940138] [test.lierdalux.cn] [MYSQL]
+SHOW INDEX FROM `robotbrand`
+
+[2020-05-06 11:14:02.012] [940138] [test.lierdalux.cn] [MYSQL]
+SELECT trigger_name, event_manipulation, event_object_table, action_statement, action_timing, DEFINER FROM information_schema.triggers WHERE BINARY event_object_schema='ibms' AND BINARY event_object_table='robotbrand'
+
+[2020-05-06 11:14:02.061] [940138] [test.lierdalux.cn] [MYSQL]
+SHOW CREATE TABLE `robotbrand`
+
+[2020-05-06 11:14:11.860] [940714] [test.lierdalux.cn] [MYSQL]
+SHOW TABLE STATUS LIKE 'robotbrand'
+
+[2020-05-06 11:14:11.888] [940714] [test.lierdalux.cn] [MYSQL]
+SHOW ENGINES
+
+[2020-05-06 11:14:11.894] [940138] [test.lierdalux.cn] [MYSQL]
+SHOW CREATE TABLE `robotbrand`
+
+[2020-05-06 11:14:12.032] [940714] [test.lierdalux.cn] [MYSQL]
+SELECT * FROM `robotbrand` LIMIT 0, 1000
+
+[2020-05-06 11:14:12.039] [940714] [test.lierdalux.cn] [MYSQL]
+SHOW COLUMNS FROM `ibms`.`robotbrand`
+
+[2020-05-06 11:14:43.971] [940719] [test.lierdalux.cn] [MYSQL]
+SHOW TABLE STATUS LIKE 'robottri'
+
+[2020-05-06 11:14:43.992] [940719] [test.lierdalux.cn] [MYSQL]
+SHOW ENGINES
+
+[2020-05-06 11:14:43.999] [940138] [test.lierdalux.cn] [MYSQL]
+SHOW CREATE TABLE `robottri`
+
+[2020-05-06 11:14:44.127] [940719] [test.lierdalux.cn] [MYSQL]
+SELECT * FROM `robottri` LIMIT 0, 1000
+
+[2020-05-06 11:14:44.135] [940719] [test.lierdalux.cn] [MYSQL]
+SHOW COLUMNS FROM `ibms`.`robottri`
+
+[2020-05-06 11:14:48.107] [940138] [test.lierdalux.cn] [MYSQL]
+SHOW ENGINES
+
+[2020-05-06 11:14:48.196] [940138] [test.lierdalux.cn] [MYSQL]
+SHOW TABLE STATUS LIKE 'robottri'
+
+[2020-05-06 11:14:48.214] [940138] [test.lierdalux.cn] [MYSQL]
+SHOW CREATE TABLE `robottri`
+
+[2020-05-06 11:14:48.219] [940138] [test.lierdalux.cn] [MYSQL]
+SELECT TABLE_NAME, PARTITION_NAME, SUBPARTITION_NAME, PARTITION_METHOD, SUBPARTITION_METHOD, PARTITION_EXPRESSION, SUBPARTITION_EXPRESSION, PARTITION_DESCRIPTION, PARTITION_COMMENT, NODEGROUP, TABLESPACE_NAME FROM information_schema.PARTITIONS WHERE TABLE_SCHEMA LIKE 'ibms' AND NOT ISNULL(PARTITION_NAME) AND TABLE_NAME LIKE 'robottri' ORDER BY TABLE_NAME, PARTITION_NAME, PARTITION_ORDINAL_POSITION, SUBPARTITION_ORDINAL_POSITION
+
+[2020-05-06 11:14:48.276] [940138] [test.lierdalux.cn] [MYSQL]
+SHOW FULL COLUMNS FROM `robottri`
+
+[2020-05-06 11:14:48.285] [940138] [test.lierdalux.cn] [MYSQL]
+SHOW CREATE TABLE `robottri`
+
+[2020-05-06 11:14:48.292] [940138] [test.lierdalux.cn] [MYSQL]
+SELECT * FROM `information_schema`.`columns` WHERE TABLE_NAME='robottri' AND TABLE_SCHEMA='ibms'
+
+[2020-05-06 11:14:48.300] [940138] [test.lierdalux.cn] [MYSQL]
+SHOW INDEX FROM `robottri`
+
+[2020-05-06 11:14:48.308] [940138] [test.lierdalux.cn] [MYSQL]
+SELECT trigger_name, event_manipulation, event_object_table, action_statement, action_timing, DEFINER FROM information_schema.triggers WHERE BINARY event_object_schema='ibms' AND BINARY event_object_table='robottri'
+
+[2020-05-06 11:14:48.357] [940138] [test.lierdalux.cn] [MYSQL]
+SHOW CREATE TABLE `robottri`
+
+[2020-05-06 11:17:52.568] [940728] [test.lierdalux.cn] [MYSQL]
+SHOW TABLE STATUS LIKE 'roomtype'
+
+[2020-05-06 11:17:52.587] [940728] [test.lierdalux.cn] [MYSQL]
+SHOW ENGINES
+
+[2020-05-06 11:17:52.593] [940138] [test.lierdalux.cn] [MYSQL]
+SHOW CREATE TABLE `roomtype`
+
+[2020-05-06 11:17:52.699] [940728] [test.lierdalux.cn] [MYSQL]
+SELECT * FROM `roomtype` LIMIT 0, 1000
+
+[2020-05-06 11:17:52.705] [940728] [test.lierdalux.cn] [MYSQL]
+SHOW COLUMNS FROM `ibms`.`roomtype`
+
+[2020-05-06 11:17:54.468] [940729] [test.lierdalux.cn] [MYSQL]
+SHOW TABLE STATUS LIKE 'runstate'
+
+[2020-05-06 11:17:54.486] [940729] [test.lierdalux.cn] [MYSQL]
+SHOW ENGINES
+
+[2020-05-06 11:17:54.491] [940138] [test.lierdalux.cn] [MYSQL]
+SHOW CREATE TABLE `runstate`
+
+[2020-05-06 11:17:54.607] [940729] [test.lierdalux.cn] [MYSQL]
+SELECT * FROM `runstate` LIMIT 0, 1000
+
+[2020-05-06 11:17:54.620] [940729] [test.lierdalux.cn] [MYSQL]
+SHOW COLUMNS FROM `ibms`.`runstate`
+
+[2020-05-06 11:17:57.972] [940730] [test.lierdalux.cn] [MYSQL]
+SHOW TABLE STATUS LIKE 'runstate_time'
+
+[2020-05-06 11:17:57.991] [940730] [test.lierdalux.cn] [MYSQL]
+SHOW ENGINES
+
+[2020-05-06 11:17:58.000] [940138] [test.lierdalux.cn] [MYSQL]
+SHOW CREATE TABLE `runstate_time`
+
+[2020-05-06 11:17:58.115] [940730] [test.lierdalux.cn] [MYSQL]
+SELECT * FROM `runstate_time` LIMIT 0, 1000
+
+[2020-05-06 11:17:58.182] [940730] [test.lierdalux.cn] [MYSQL]
+SHOW COLUMNS FROM `ibms`.`runstate_time`
+
+[2020-05-06 11:18:04.567] [940138] [test.lierdalux.cn] [MYSQL]
+SHOW ENGINES
+
+[2020-05-06 11:18:04.706] [940138] [test.lierdalux.cn] [MYSQL]
+SHOW TABLE STATUS LIKE 'scene'
+
+[2020-05-06 11:18:04.725] [940138] [test.lierdalux.cn] [MYSQL]
+SHOW CREATE TABLE `scene`
+
+[2020-05-06 11:18:04.731] [940138] [test.lierdalux.cn] [MYSQL]
+SELECT TABLE_NAME, PARTITION_NAME, SUBPARTITION_NAME, PARTITION_METHOD, SUBPARTITION_METHOD, PARTITION_EXPRESSION, SUBPARTITION_EXPRESSION, PARTITION_DESCRIPTION, PARTITION_COMMENT, NODEGROUP, TABLESPACE_NAME FROM information_schema.PARTITIONS WHERE TABLE_SCHEMA LIKE 'ibms' AND NOT ISNULL(PARTITION_NAME) AND TABLE_NAME LIKE 'scene' ORDER BY TABLE_NAME, PARTITION_NAME, PARTITION_ORDINAL_POSITION, SUBPARTITION_ORDINAL_POSITION
+
+[2020-05-06 11:18:04.781] [940138] [test.lierdalux.cn] [MYSQL]
+SHOW FULL COLUMNS FROM `scene`
+
+[2020-05-06 11:18:04.791] [940138] [test.lierdalux.cn] [MYSQL]
+SHOW CREATE TABLE `scene`
+
+[2020-05-06 11:18:04.798] [940138] [test.lierdalux.cn] [MYSQL]
+SELECT * FROM `information_schema`.`columns` WHERE TABLE_NAME='scene' AND TABLE_SCHEMA='ibms'
+
+[2020-05-06 11:18:04.807] [940138] [test.lierdalux.cn] [MYSQL]
+SHOW INDEX FROM `scene`
+
+[2020-05-06 11:18:04.815] [940138] [test.lierdalux.cn] [MYSQL]
+SELECT trigger_name, event_manipulation, event_object_table, action_statement, action_timing, DEFINER FROM information_schema.triggers WHERE BINARY event_object_schema='ibms' AND BINARY event_object_table='scene'
+
+[2020-05-06 11:18:04.864] [940138] [test.lierdalux.cn] [MYSQL]
+SHOW CREATE TABLE `scene`
+
+[2020-05-06 11:18:50.487] [940737] [test.lierdalux.cn] [MYSQL]
+SHOW TABLE STATUS LIKE 'xiaodu_hotel_user'
+
+[2020-05-06 11:18:50.504] [940737] [test.lierdalux.cn] [MYSQL]
+SHOW ENGINES
+
+[2020-05-06 11:18:50.534] [940138] [test.lierdalux.cn] [MYSQL]
+SHOW CREATE TABLE `xiaodu_hotel_user`
+
+[2020-05-06 11:18:50.668] [940737] [test.lierdalux.cn] [MYSQL]
+SELECT * FROM `xiaodu_hotel_user` LIMIT 0, 1000
+
+[2020-05-06 11:18:50.676] [940737] [test.lierdalux.cn] [MYSQL]
+SHOW COLUMNS FROM `ibms`.`xiaodu_hotel_user`
+
+[2020-05-06 11:19:23.382] [940739] [test.lierdalux.cn] [MYSQL]
+SHOW TABLE STATUS LIKE 'xiaomitype'
+
+[2020-05-06 11:19:23.404] [940739] [test.lierdalux.cn] [MYSQL]
+SHOW ENGINES
+
+[2020-05-06 11:19:23.414] [940138] [test.lierdalux.cn] [MYSQL]
+SHOW CREATE TABLE `xiaomitype`
+
+[2020-05-06 11:19:23.547] [940739] [test.lierdalux.cn] [MYSQL]
+SELECT * FROM `xiaomitype` LIMIT 0, 1000
+
+[2020-05-06 11:19:23.555] [940739] [test.lierdalux.cn] [MYSQL]
+SHOW COLUMNS FROM `ibms`.`xiaomitype`
+
+[2020-05-06 13:58:56.657] [000579] [test.lierdalux.cn] [MYSQL]
+SHOW TABLE STATUS LIKE 'xiaomitype'
+
+[2020-05-06 13:58:56.675] [000579] [test.lierdalux.cn] [MYSQL]
+SHOW ENGINES
+
+[2020-05-06 13:58:56.682] [940138] [test.lierdalux.cn] [MYSQL]
+SHOW CREATE TABLE `xiaomitype`
+
+[2020-05-06 13:58:56.682] [940138] [test.lierdalux.cn] [MYSQL]
+2006 - MySQL server has gone away
+
+[2020-05-06 13:58:56.719] [000580] [test.lierdalux.cn] [MYSQL]
+SHOW CREATE TABLE `xiaomitype`
+
+[2020-05-06 13:58:56.789] [000579] [test.lierdalux.cn] [MYSQL]
+SELECT * FROM `xiaomitype` LIMIT 0, 1000
+
+[2020-05-06 13:58:56.797] [000579] [test.lierdalux.cn] [MYSQL]
+SHOW COLUMNS FROM `ibms`.`xiaomitype`
+
+[2020-05-06 13:59:04.548] [000581] [test.lierdalux.cn] [MYSQL]
+SHOW TABLE STATUS LIKE 'firmware'
+
+[2020-05-06 13:59:04.560] [000581] [test.lierdalux.cn] [MYSQL]
+SHOW ENGINES
+
+[2020-05-06 13:59:04.567] [000580] [test.lierdalux.cn] [MYSQL]
+SHOW CREATE TABLE `firmware`
+
+[2020-05-06 13:59:04.651] [000581] [test.lierdalux.cn] [MYSQL]
+SELECT * FROM `firmware` LIMIT 0, 1000
+
+[2020-05-06 13:59:04.674] [000581] [test.lierdalux.cn] [MYSQL]
+SHOW COLUMNS FROM `ibms`.`firmware`
+
+[2020-05-06 14:03:27.912] [000587] [test.lierdalux.cn] [MYSQL]
+SHOW TABLE STATUS LIKE 'xiaodu_hotel_user'
+
+[2020-05-06 14:03:27.924] [000587] [test.lierdalux.cn] [MYSQL]
+SHOW ENGINES
+
+[2020-05-06 14:03:27.930] [000580] [test.lierdalux.cn] [MYSQL]
+SHOW CREATE TABLE `xiaodu_hotel_user`
+
+[2020-05-06 14:03:28.018] [000587] [test.lierdalux.cn] [MYSQL]
+SELECT * FROM `xiaodu_hotel_user` LIMIT 0, 1000
+
+[2020-05-06 14:03:28.024] [000587] [test.lierdalux.cn] [MYSQL]
+SHOW COLUMNS FROM `ibms`.`xiaodu_hotel_user`
+
+[2020-05-06 14:03:30.359] [000580] [test.lierdalux.cn] [MYSQL]
+SHOW ENGINES
+
+[2020-05-06 14:03:30.435] [000580] [test.lierdalux.cn] [MYSQL]
+SHOW TABLE STATUS LIKE 'xiaodu_hotel_user'
+
+[2020-05-06 14:03:30.448] [000580] [test.lierdalux.cn] [MYSQL]
+SHOW CREATE TABLE `xiaodu_hotel_user`
+
+[2020-05-06 14:03:30.454] [000580] [test.lierdalux.cn] [MYSQL]
+SELECT TABLE_NAME, PARTITION_NAME, SUBPARTITION_NAME, PARTITION_METHOD, SUBPARTITION_METHOD, PARTITION_EXPRESSION, SUBPARTITION_EXPRESSION, PARTITION_DESCRIPTION, PARTITION_COMMENT, NODEGROUP, TABLESPACE_NAME FROM information_schema.PARTITIONS WHERE TABLE_SCHEMA LIKE 'ibms' AND NOT ISNULL(PARTITION_NAME) AND TABLE_NAME LIKE 'xiaodu_hotel_user' ORDER BY TABLE_NAME, PARTITION_NAME, PARTITION_ORDINAL_POSITION, SUBPARTITION_ORDINAL_POSITION
+
+[2020-05-06 14:03:30.490] [000580] [test.lierdalux.cn] [MYSQL]
+SHOW FULL COLUMNS FROM `xiaodu_hotel_user`
+
+[2020-05-06 14:03:30.497] [000580] [test.lierdalux.cn] [MYSQL]
+SHOW CREATE TABLE `xiaodu_hotel_user`
+
+[2020-05-06 14:03:30.502] [000580] [test.lierdalux.cn] [MYSQL]
+SELECT * FROM `information_schema`.`columns` WHERE TABLE_NAME='xiaodu_hotel_user' AND TABLE_SCHEMA='ibms'
+
+[2020-05-06 14:03:30.512] [000580] [test.lierdalux.cn] [MYSQL]
+SHOW INDEX FROM `xiaodu_hotel_user`
+
+[2020-05-06 14:03:30.520] [000580] [test.lierdalux.cn] [MYSQL]
+SELECT trigger_name, event_manipulation, event_object_table, action_statement, action_timing, DEFINER FROM information_schema.triggers WHERE BINARY event_object_schema='ibms' AND BINARY event_object_table='xiaodu_hotel_user'
+
+[2020-05-06 14:03:30.558] [000580] [test.lierdalux.cn] [MYSQL]
+SHOW CREATE TABLE `xiaodu_hotel_user`
+
+[2020-05-06 14:03:39.261] [130617] [¾Æµêh5] [MYSQL]
+SHOW VARIABLES LIKE 'lower_case_%'
+
+[2020-05-06 14:03:39.273] [130617] [¾Æµêh5] [MYSQL]
+SHOW VARIABLES LIKE 'profiling'
+
+[2020-05-06 14:03:39.285] [130617] [¾Æµêh5] [MYSQL]
+SHOW DATABASES
+
+[2020-05-06 14:03:41.458] [130618] [¾Æµêh5] [MYSQL]
+SELECT @@character_set_database, @@collation_database
+
+[2020-05-06 14:03:41.475] [130618] [¾Æµêh5] [MYSQL]
+SHOW FULL TABLES WHERE Table_type != 'VIEW'
+
+[2020-05-06 14:03:41.496] [130618] [¾Æµêh5] [MYSQL]
+SHOW TABLE STATUS
+
+[2020-05-06 14:03:55.138] [130617] [¾Æµêh5] [MYSQL]
+SHOW CHARACTER SET
+
+[2020-05-06 14:03:55.158] [130617] [¾Æµêh5] [MYSQL]
+SHOW COLLATION
+
+[2020-05-06 14:03:55.428] [130618] [¾Æµêh5] [MYSQL]
+SHOW ENGINES
+
+[2020-05-06 14:03:55.504] [130618] [¾Æµêh5] [MYSQL]
+SHOW TABLE STATUS LIKE 'xiaodu_hotel_user'
+
+[2020-05-06 14:03:55.522] [130618] [¾Æµêh5] [MYSQL]
+SHOW CREATE TABLE `xiaodu_hotel_user`
+
+[2020-05-06 14:03:55.534] [130618] [¾Æµêh5] [MYSQL]
+SELECT TABLE_NAME, PARTITION_NAME, SUBPARTITION_NAME, PARTITION_METHOD, SUBPARTITION_METHOD, PARTITION_EXPRESSION, SUBPARTITION_EXPRESSION, PARTITION_DESCRIPTION, PARTITION_COMMENT, NODEGROUP, TABLESPACE_NAME FROM information_schema.PARTITIONS WHERE TABLE_SCHEMA LIKE 'ibmshotel' AND NOT ISNULL(PARTITION_NAME) AND TABLE_NAME LIKE 'xiaodu_hotel_user' ORDER BY TABLE_NAME, PARTITION_NAME, PARTITION_ORDINAL_POSITION, SUBPARTITION_ORDINAL_POSITION
+
+[2020-05-06 14:03:55.558] [130618] [¾Æµêh5] [MYSQL]
+SHOW FULL COLUMNS FROM `xiaodu_hotel_user`
+
+[2020-05-06 14:03:55.589] [130618] [¾Æµêh5] [MYSQL]
+SHOW CREATE TABLE `xiaodu_hotel_user`
+
+[2020-05-06 14:03:55.601] [130618] [¾Æµêh5] [MYSQL]
+SELECT * FROM `information_schema`.`columns` WHERE TABLE_NAME='xiaodu_hotel_user' AND TABLE_SCHEMA='ibmshotel'
+
+[2020-05-06 14:03:55.617] [130618] [¾Æµêh5] [MYSQL]
+SHOW INDEX FROM `xiaodu_hotel_user`
+
+[2020-05-06 14:03:55.637] [130618] [¾Æµêh5] [MYSQL]
+SELECT trigger_name, event_manipulation, event_object_table, action_statement, action_timing, DEFINER FROM information_schema.triggers WHERE BINARY event_object_schema='ibmshotel' AND BINARY event_object_table='xiaodu_hotel_user'
+
+[2020-05-06 14:03:55.664] [130618] [¾Æµêh5] [MYSQL]
+SHOW CREATE TABLE `xiaodu_hotel_user`
+
+[2020-05-06 14:06:08.506] [131119] [¾Æµêh5] [MYSQL]
+SHOW TABLE STATUS LIKE 'xiaodu_hotel_user'
+
+[2020-05-06 14:06:08.532] [131119] [¾Æµêh5] [MYSQL]
+SHOW ENGINES
+
+[2020-05-06 14:06:08.554] [130618] [¾Æµêh5] [MYSQL]
+SHOW CREATE TABLE `xiaodu_hotel_user`
+
+[2020-05-06 14:06:08.643] [131119] [¾Æµêh5] [MYSQL]
+SELECT * FROM `xiaodu_hotel_user` LIMIT 0, 1000
+
+[2020-05-06 14:06:08.675] [131119] [¾Æµêh5] [MYSQL]
+SHOW COLUMNS FROM `ibmshotel`.`xiaodu_hotel_user`
+
+[2020-05-06 14:32:34.140] [000667] [test.lierdalux.cn] [MYSQL]
+SHOW TABLE STATUS LIKE 'a_buildingroom_user'
+
+[2020-05-06 14:32:34.153] [000667] [test.lierdalux.cn] [MYSQL]
+SHOW ENGINES
+
+[2020-05-06 14:32:34.159] [000580] [test.lierdalux.cn] [MYSQL]
+SHOW CREATE TABLE `a_buildingroom_user`
+
+[2020-05-06 14:32:34.240] [000667] [test.lierdalux.cn] [MYSQL]
+SELECT * FROM `a_buildingroom_user` LIMIT 0, 1000
+
+[2020-05-06 14:32:34.254] [000667] [test.lierdalux.cn] [MYSQL]
+SHOW COLUMNS FROM `ibms`.`a_buildingroom_user`
+
+[2020-05-06 14:34:22.664] [000675] [test.lierdalux.cn] [MYSQL]
+SHOW TABLE STATUS LIKE 'robottri'
+
+[2020-05-06 14:34:22.674] [000675] [test.lierdalux.cn] [MYSQL]
+SHOW ENGINES
+
+[2020-05-06 14:34:22.679] [000580] [test.lierdalux.cn] [MYSQL]
+SHOW CREATE TABLE `robottri`
+
+[2020-05-06 14:34:22.753] [000675] [test.lierdalux.cn] [MYSQL]
+SELECT * FROM `robottri` LIMIT 0, 1000
+
+[2020-05-06 14:34:22.760] [000675] [test.lierdalux.cn] [MYSQL]
+SHOW COLUMNS FROM `ibms`.`robottri`
+
+[2020-05-06 14:34:25.376] [000675] [test.lierdalux.cn] [MYSQL]
+SELECT * FROM `robottri` LIMIT 0, 1000
+
+[2020-05-06 14:34:25.382] [000675] [test.lierdalux.cn] [MYSQL]
+SHOW COLUMNS FROM `ibms`.`robottri`
+
+[2020-05-06 14:35:12.558] [000675] [test.lierdalux.cn] [MYSQL]
+SELECT * FROM `robottri` LIMIT 0, 1000
+
+[2020-05-06 14:35:12.566] [000675] [test.lierdalux.cn] [MYSQL]
+SHOW COLUMNS FROM `ibms`.`robottri`
+
+[2020-05-06 14:36:26.764] [000675] [test.lierdalux.cn] [MYSQL]
+SELECT * FROM `robottri` LIMIT 0, 1000
+
+[2020-05-06 14:36:26.771] [000675] [test.lierdalux.cn] [MYSQL]
+SHOW COLUMNS FROM `ibms`.`robottri`
+
+[2020-05-06 15:14:15.506] [000705] [test.lierdalux.cn] [MYSQL]
+SHOW TABLE STATUS LIKE 'author'
+
+[2020-05-06 15:14:15.518] [000705] [test.lierdalux.cn] [MYSQL]
+SHOW ENGINES
+
+[2020-05-06 15:14:15.524] [000580] [test.lierdalux.cn] [MYSQL]
+SHOW CREATE TABLE `author`
+
+[2020-05-06 15:14:15.592] [000705] [test.lierdalux.cn] [MYSQL]
+SELECT * FROM `author` LIMIT 0, 1000
+
+[2020-05-06 15:14:15.606] [000705] [test.lierdalux.cn] [MYSQL]
+SHOW COLUMNS FROM `ibms`.`author`
+
+[2020-05-06 15:18:12.593] [131128] [¾Æµêh5] [MYSQL]
+SHOW VARIABLES LIKE 'lower_case_%'
+
+[2020-05-06 15:18:12.605] [131128] [¾Æµêh5] [MYSQL]
+SHOW VARIABLES LIKE 'profiling'
+
+[2020-05-06 15:18:12.618] [131128] [¾Æµêh5] [MYSQL]
+SHOW DATABASES
+
+[2020-05-06 15:18:14.240] [131129] [¾Æµêh5] [MYSQL]
+SELECT @@character_set_database, @@collation_database
+
+[2020-05-06 15:18:14.265] [131129] [¾Æµêh5] [MYSQL]
+SHOW FULL TABLES WHERE Table_type != 'VIEW'
+
+[2020-05-06 15:18:14.305] [131129] [¾Æµêh5] [MYSQL]
+SHOW TABLE STATUS
+
+[2020-05-06 15:20:54.751] [000712] [test.lierdalux.cn] [MYSQL]
+SHOW VARIABLES LIKE 'lower_case_%'
+
+[2020-05-06 15:20:54.765] [000712] [test.lierdalux.cn] [MYSQL]
+SHOW VARIABLES LIKE 'profiling'
+
+[2020-05-06 15:20:54.773] [000712] [test.lierdalux.cn] [MYSQL]
+SHOW DATABASES
+
+[2020-05-06 15:21:08.778] [000713] [test.lierdalux.cn] [MYSQL]
+SELECT @@character_set_database, @@collation_database
+
+[2020-05-06 15:21:08.790] [000713] [test.lierdalux.cn] [MYSQL]
+SHOW FULL TABLES WHERE Table_type != 'VIEW'
+
+[2020-05-06 15:21:08.804] [000713] [test.lierdalux.cn] [MYSQL]
+SHOW TABLE STATUS
+
+[2020-05-06 15:21:24.434] [000714] [test.lierdalux.cn] [MYSQL]
+SHOW TABLE STATUS LIKE 'ys'
+
+[2020-05-06 15:21:24.447] [000714] [test.lierdalux.cn] [MYSQL]
+SHOW ENGINES
+
+[2020-05-06 15:21:24.453] [000713] [test.lierdalux.cn] [MYSQL]
+SHOW CREATE TABLE `ys`
+
+[2020-05-06 15:21:24.524] [000714] [test.lierdalux.cn] [MYSQL]
+SELECT * FROM `ys` LIMIT 0, 1000
+
+[2020-05-06 15:21:24.532] [000714] [test.lierdalux.cn] [MYSQL]
+SHOW COLUMNS FROM `ibms`.`ys`
+
+[2020-05-06 15:21:27.765] [000715] [test.lierdalux.cn] [MYSQL]
+SHOW TABLE STATUS LIKE 'zz_hotel_order'
+
+[2020-05-06 15:21:27.777] [000715] [test.lierdalux.cn] [MYSQL]
+SHOW ENGINES
+
+[2020-05-06 15:21:27.783] [000713] [test.lierdalux.cn] [MYSQL]
+SHOW CREATE TABLE `zz_hotel_order`
+
+[2020-05-06 15:21:27.871] [000715] [test.lierdalux.cn] [MYSQL]
+SELECT * FROM `zz_hotel_order` LIMIT 0, 1000
+
+[2020-05-06 15:21:27.878] [000715] [test.lierdalux.cn] [MYSQL]
+SHOW COLUMNS FROM `ibms`.`zz_hotel_order`
+
+[2020-05-06 15:21:29.936] [000716] [test.lierdalux.cn] [MYSQL]
+SHOW TABLE STATUS LIKE 'setting'
+
+[2020-05-06 15:21:29.959] [000716] [test.lierdalux.cn] [MYSQL]
+SHOW ENGINES
+
+[2020-05-06 15:21:29.967] [000713] [test.lierdalux.cn] [MYSQL]
+SHOW CREATE TABLE `setting`
+
+[2020-05-06 15:21:30.061] [000716] [test.lierdalux.cn] [MYSQL]
+SELECT * FROM `setting` LIMIT 0, 1000
+
+[2020-05-06 15:21:30.187] [000716] [test.lierdalux.cn] [MYSQL]
+SHOW COLUMNS FROM `ibms`.`setting`
+
+[2020-05-06 15:21:31.333] [000717] [test.lierdalux.cn] [MYSQL]
+SHOW TABLE STATUS LIKE 'sos_data'
+
+[2020-05-06 15:21:31.345] [000717] [test.lierdalux.cn] [MYSQL]
+SHOW ENGINES
+
+[2020-05-06 15:21:31.352] [000713] [test.lierdalux.cn] [MYSQL]
+SHOW CREATE TABLE `sos_data`
+
+[2020-05-06 15:21:31.437] [000717] [test.lierdalux.cn] [MYSQL]
+SELECT * FROM `sos_data` LIMIT 0, 1000
+
+[2020-05-06 15:21:31.493] [000717] [test.lierdalux.cn] [MYSQL]
+SHOW COLUMNS FROM `ibms`.`sos_data`
+
+[2020-05-06 15:21:33.973] [000718] [test.lierdalux.cn] [MYSQL]
+SHOW TABLE STATUS LIKE 'icon'
+
+[2020-05-06 15:21:33.986] [000718] [test.lierdalux.cn] [MYSQL]
+SHOW ENGINES
+
+[2020-05-06 15:21:33.994] [000713] [test.lierdalux.cn] [MYSQL]
+SHOW CREATE TABLE `icon`
+
+[2020-05-06 15:21:34.078] [000718] [test.lierdalux.cn] [MYSQL]
+SELECT * FROM `icon` LIMIT 0, 1000
+
+[2020-05-06 15:21:34.084] [000718] [test.lierdalux.cn] [MYSQL]
+SHOW COLUMNS FROM `ibms`.`icon`
+
+[2020-05-06 15:21:35.489] [000719] [test.lierdalux.cn] [MYSQL]
+SHOW TABLE STATUS LIKE 'IR_BRAND'
+
+[2020-05-06 15:21:35.501] [000719] [test.lierdalux.cn] [MYSQL]
+SHOW ENGINES
+
+[2020-05-06 15:21:35.507] [000713] [test.lierdalux.cn] [MYSQL]
+SHOW CREATE TABLE `IR_BRAND`
+
+[2020-05-06 15:21:35.590] [000719] [test.lierdalux.cn] [MYSQL]
+SELECT * FROM `IR_BRAND` LIMIT 0, 1000
+
+[2020-05-06 15:21:35.596] [000719] [test.lierdalux.cn] [MYSQL]
+SHOW COLUMNS FROM `ibms`.`IR_BRAND`
+
+[2020-05-06 15:21:40.523] [000720] [test.lierdalux.cn] [MYSQL]
+SHOW TABLE STATUS LIKE 'a_floor'
+
+[2020-05-06 15:21:40.536] [000720] [test.lierdalux.cn] [MYSQL]
+SHOW ENGINES
+
+[2020-05-06 15:21:40.544] [000713] [test.lierdalux.cn] [MYSQL]
+SHOW CREATE TABLE `a_floor`
+
+[2020-05-06 15:21:40.631] [000720] [test.lierdalux.cn] [MYSQL]
+SELECT * FROM `a_floor` LIMIT 0, 1000
+
+[2020-05-06 15:21:40.705] [000720] [test.lierdalux.cn] [MYSQL]
+SHOW COLUMNS FROM `ibms`.`a_floor`
+
+[2020-05-06 15:21:41.547] [000721] [test.lierdalux.cn] [MYSQL]
+SHOW TABLE STATUS LIKE 'a_log'
+
+[2020-05-06 15:21:41.559] [000721] [test.lierdalux.cn] [MYSQL]
+SHOW ENGINES
+
+[2020-05-06 15:21:41.566] [000713] [test.lierdalux.cn] [MYSQL]
+SHOW CREATE TABLE `a_log`
+
+[2020-05-06 15:21:41.650] [000721] [test.lierdalux.cn] [MYSQL]
+SELECT * FROM `a_log` LIMIT 0, 1000
+
+[2020-05-06 15:21:41.771] [000721] [test.lierdalux.cn] [MYSQL]
+SHOW COLUMNS FROM `ibms`.`a_log`
+
+[2020-05-06 15:21:45.472] [000722] [test.lierdalux.cn] [MYSQL]
+SHOW TABLE STATUS LIKE 'backup'
+
+[2020-05-06 15:21:45.485] [000722] [test.lierdalux.cn] [MYSQL]
+SHOW ENGINES
+
+[2020-05-06 15:21:45.499] [000713] [test.lierdalux.cn] [MYSQL]
+SHOW CREATE TABLE `backup`
+
+[2020-05-06 15:21:45.569] [000722] [test.lierdalux.cn] [MYSQL]
+SELECT * FROM `backup` LIMIT 0, 1000
+
+[2020-05-06 15:21:45.582] [000722] [test.lierdalux.cn] [MYSQL]
+SHOW COLUMNS FROM `ibms`.`backup`
+
+[2020-05-06 15:26:07.653] [000730] [test.lierdalux.cn] [MYSQL]
+SHOW TABLE STATUS LIKE 'author'
+
+[2020-05-06 15:26:07.665] [000730] [test.lierdalux.cn] [MYSQL]
+SHOW ENGINES
+
+[2020-05-06 15:26:07.672] [000713] [test.lierdalux.cn] [MYSQL]
+SHOW CREATE TABLE `author`
+
+[2020-05-06 15:26:07.754] [000730] [test.lierdalux.cn] [MYSQL]
+SELECT * FROM `author` LIMIT 0, 1000
+
+[2020-05-06 15:26:07.767] [000730] [test.lierdalux.cn] [MYSQL]
+SHOW COLUMNS FROM `ibms`.`author`
+
+[2020-05-06 15:27:31.573] [131137] [¾Æµêh5] [MYSQL]
+SHOW VARIABLES LIKE 'lower_case_%'
+
+[2020-05-06 15:27:31.597] [131137] [¾Æµêh5] [MYSQL]
+SHOW VARIABLES LIKE 'profiling'
+
+[2020-05-06 15:27:31.635] [131137] [¾Æµêh5] [MYSQL]
+SHOW DATABASES
+
+[2020-05-06 15:27:32.864] [131138] [¾Æµêh5] [MYSQL]
+SELECT @@character_set_database, @@collation_database
+
+[2020-05-06 15:27:32.897] [131138] [¾Æµêh5] [MYSQL]
+SHOW FULL TABLES WHERE Table_type != 'VIEW'
+
+[2020-05-06 15:27:32.935] [131138] [¾Æµêh5] [MYSQL]
+SHOW TABLE STATUS
+
+[2020-05-06 15:47:15.656] [131144] [¾Æµêh5] [MYSQL]
+SHOW VARIABLES LIKE 'lower_case_%'
+
+[2020-05-06 15:47:15.682] [131144] [¾Æµêh5] [MYSQL]
+SHOW VARIABLES LIKE 'profiling'
+
+[2020-05-06 15:47:15.695] [131144] [¾Æµêh5] [MYSQL]
+SHOW DATABASES
+
+[2020-05-06 15:47:21.493] [131146] [¾Æµêh5] [MYSQL]
+SET PROFILING=1;
+
+[2020-05-06 15:47:21.501] [131146] [¾Æµêh5] [MYSQL]
+SHOW STATUS
+
+[2020-05-06 15:47:21.513] [131146] [¾Æµêh5] [MYSQL]
+SHOW STATUS
+
+[2020-05-06 15:47:21.555] [131146] [¾Æµêh5] [MYSQL]
+show variables like 'log_bin';
+
+[2020-05-06 15:47:21.572] [131146] [¾Æµêh5] [MYSQL]
+SHOW STATUS
+
+[2020-05-06 15:47:21.587] [131146] [¾Æµêh5] [MYSQL]
+SELECT QUERY_ID, SUM(DURATION) AS SUM_DURATION FROM INFORMATION_SCHEMA.PROFILING GROUP BY QUERY_ID
+
+[2020-05-06 15:47:21.597] [131146] [¾Æµêh5] [MYSQL]
+SELECT STATE AS `×´Ì¬`, ROUND(SUM(DURATION),7) AS `ÆÚ¼ä`, CONCAT(ROUND(SUM(DURATION)/0.001211*100,3), '%') AS `°Ù·Ö±È` FROM INFORMATION_SCHEMA.PROFILING WHERE QUERY_ID=3 GROUP BY STATE ORDER BY SEQ
+
+[2020-05-06 16:16:03.246] [000769] [test.lierdalux.cn] [MYSQL]
+SHOW VARIABLES LIKE 'lower_case_%'
+
+[2020-05-06 16:16:03.254] [000769] [test.lierdalux.cn] [MYSQL]
+SHOW VARIABLES LIKE 'profiling'
+
+[2020-05-06 16:16:03.263] [000769] [test.lierdalux.cn] [MYSQL]
+SHOW DATABASES
+
+[2020-05-06 16:16:05.196] [000770] [test.lierdalux.cn] [MYSQL]
+SELECT @@character_set_database, @@collation_database
+
+[2020-05-06 16:16:05.206] [000770] [test.lierdalux.cn] [MYSQL]
+SHOW FULL TABLES WHERE Table_type != 'VIEW'
+
+[2020-05-06 16:16:05.222] [000770] [test.lierdalux.cn] [MYSQL]
+SHOW TABLE STATUS
+
+[2020-05-06 16:16:11.071] [000771] [test.lierdalux.cn] [MYSQL]
+SHOW TABLE STATUS LIKE 'author'
+
+[2020-05-06 16:16:11.085] [000771] [test.lierdalux.cn] [MYSQL]
+SHOW ENGINES
+
+[2020-05-06 16:16:11.094] [000770] [test.lierdalux.cn] [MYSQL]
+SHOW CREATE TABLE `author`
+
+[2020-05-06 16:16:11.177] [000771] [test.lierdalux.cn] [MYSQL]
+SELECT * FROM `author` LIMIT 0, 1000
+
+[2020-05-06 16:16:11.197] [000771] [test.lierdalux.cn] [MYSQL]
+SHOW COLUMNS FROM `ibms`.`author`
+
+[2020-05-06 16:16:23.383] [000771] [test.lierdalux.cn] [MYSQL]
+SELECT * FROM `author` LIMIT 1000, 1000
+
+[2020-05-06 16:16:23.403] [000771] [test.lierdalux.cn] [MYSQL]
+SHOW COLUMNS FROM `ibms`.`author`
+
+[2020-05-06 16:16:24.019] [000771] [test.lierdalux.cn] [MYSQL]
+SELECT * FROM `author` LIMIT 2000, 1000
+
+[2020-05-06 16:16:24.059] [000771] [test.lierdalux.cn] [MYSQL]
+SHOW COLUMNS FROM `ibms`.`author`
+
+[2020-05-06 16:16:25.737] [000771] [test.lierdalux.cn] [MYSQL]
+SELECT * FROM `author` LIMIT 1000, 1000
+
+[2020-05-06 16:16:25.753] [000771] [test.lierdalux.cn] [MYSQL]
+SHOW COLUMNS FROM `ibms`.`author`
+
+[2020-05-06 16:18:21.406] [000769] [test.lierdalux.cn] [MYSQL]
+SHOW CHARACTER SET
+
+[2020-05-06 16:18:21.415] [000769] [test.lierdalux.cn] [MYSQL]
+SHOW COLLATION
+
+[2020-05-06 16:18:21.686] [000770] [test.lierdalux.cn] [MYSQL]
+SHOW ENGINES
+
+[2020-05-06 16:18:21.756] [000770] [test.lierdalux.cn] [MYSQL]
+SHOW TABLE STATUS LIKE 'author'
+
+[2020-05-06 16:18:21.768] [000770] [test.lierdalux.cn] [MYSQL]
+SHOW CREATE TABLE `author`
+
+[2020-05-06 16:18:21.775] [000770] [test.lierdalux.cn] [MYSQL]
+SELECT TABLE_NAME, PARTITION_NAME, SUBPARTITION_NAME, PARTITION_METHOD, SUBPARTITION_METHOD, PARTITION_EXPRESSION, SUBPARTITION_EXPRESSION, PARTITION_DESCRIPTION, PARTITION_COMMENT, NODEGROUP, TABLESPACE_NAME FROM information_schema.PARTITIONS WHERE TABLE_SCHEMA LIKE 'ibms' AND NOT ISNULL(PARTITION_NAME) AND TABLE_NAME LIKE 'author' ORDER BY TABLE_NAME, PARTITION_NAME, PARTITION_ORDINAL_POSITION, SUBPARTITION_ORDINAL_POSITION
+
+[2020-05-06 16:18:21.810] [000770] [test.lierdalux.cn] [MYSQL]
+SHOW FULL COLUMNS FROM `author`
+
+[2020-05-06 16:18:21.825] [000770] [test.lierdalux.cn] [MYSQL]
+SHOW CREATE TABLE `author`
+
+[2020-05-06 16:18:21.832] [000770] [test.lierdalux.cn] [MYSQL]
+SELECT * FROM `information_schema`.`columns` WHERE TABLE_NAME='author' AND TABLE_SCHEMA='ibms'
+
+[2020-05-06 16:18:21.842] [000770] [test.lierdalux.cn] [MYSQL]
+SHOW INDEX FROM `author`
+
+[2020-05-06 16:18:21.848] [000770] [test.lierdalux.cn] [MYSQL]
+SELECT trigger_name, event_manipulation, event_object_table, action_statement, action_timing, DEFINER FROM information_schema.triggers WHERE BINARY event_object_schema='ibms' AND BINARY event_object_table='author'
+
+[2020-05-06 16:18:21.894] [000770] [test.lierdalux.cn] [MYSQL]
+SHOW CREATE TABLE `author`
+
+[2020-05-06 16:18:59.824] [000771] [test.lierdalux.cn] [MYSQL]
+SELECT * FROM `author` LIMIT 0, 1000
+
+[2020-05-06 16:18:59.838] [000771] [test.lierdalux.cn] [MYSQL]
+SHOW COLUMNS FROM `ibms`.`author`
+
+[2020-05-06 16:21:21.324] [000774] [test.lierdalux.cn] [MYSQL]
+SHOW TABLE STATUS LIKE 'scene'
+
+[2020-05-06 16:21:21.353] [000774] [test.lierdalux.cn] [MYSQL]
+SHOW ENGINES
+
+[2020-05-06 16:21:21.363] [000770] [test.lierdalux.cn] [MYSQL]
+SHOW CREATE TABLE `scene`
+
+[2020-05-06 16:21:21.454] [000774] [test.lierdalux.cn] [MYSQL]
+SELECT * FROM `scene` LIMIT 0, 1000
+
+[2020-05-06 16:21:21.595] [000774] [test.lierdalux.cn] [MYSQL]
+SHOW COLUMNS FROM `ibms`.`scene`
+
+[2020-05-06 16:24:47.499] [131177] [¾Æµêh5] [MYSQL]
+SHOW FULL PROCESSLIST
+
+[2020-05-06 16:24:52.952] [131177] [¾Æµêh5] [MYSQL]
+SHOW FULL PROCESSLIST
+
+[2020-05-06 16:24:58.120] [131177] [¾Æµêh5] [MYSQL]
+SHOW FULL PROCESSLIST
+
+[2020-05-06 16:25:00.656] [131177] [¾Æµêh5] [MYSQL]
+SHOW GLOBAL VARIABLES
+
+[2020-05-06 16:26:49.573] [131177] [¾Æµêh5] [MYSQL]
+SHOW GLOBAL STATUS
+
+[2020-05-06 16:32:57.735] [131179] [¾Æµêh5] [MYSQL]
+SHOW VARIABLES LIKE 'lower_case_%'
+
+[2020-05-06 16:32:57.760] [131179] [¾Æµêh5] [MYSQL]
+SHOW VARIABLES LIKE 'profiling'
+
+[2020-05-06 16:32:57.770] [131179] [¾Æµêh5] [MYSQL]
+SHOW DATABASES
+
+[2020-05-06 16:33:00.208] [131180] [¾Æµêh5] [MYSQL]
+SELECT @@character_set_database, @@collation_database
+
+[2020-05-06 16:33:00.233] [131180] [¾Æµêh5] [MYSQL]
+SHOW FULL TABLES WHERE Table_type != 'VIEW'
+
+[2020-05-06 16:33:00.258] [131180] [¾Æµêh5] [MYSQL]
+SHOW TABLE STATUS
+
+[2020-05-06 16:35:10.219] [131181] [¾Æµêh5] [MYSQL]
+SHOW VARIABLES LIKE 'lower_case_%'
+
+[2020-05-06 16:35:10.229] [131181] [¾Æµêh5] [MYSQL]
+SHOW VARIABLES LIKE 'profiling'
+
+[2020-05-06 16:35:10.240] [131181] [¾Æµêh5] [MYSQL]
+SHOW DATABASES
+
+[2020-05-06 16:35:12.081] [131182] [¾Æµêh5] [MYSQL]
+SELECT @@character_set_database, @@collation_database
+
+[2020-05-06 16:35:14.938] [131183] [¾Æµêh5] [MYSQL]
+SHOW FULL TABLES FROM `ibmshotel` WHERE Table_type != 'VIEW'
+
+[2020-05-06 16:35:14.963] [131183] [¾Æµêh5] [MYSQL]
+SHOW FULL TABLES FROM `ibmshotel` WHERE Table_type = 'VIEW'
+
+[2020-05-06 16:35:14.978] [131183] [¾Æµêh5] [MYSQL]
+SHOW PROCEDURE STATUS WHERE Db='ibmshotel'
+
+[2020-05-06 16:35:15.296] [131183] [¾Æµêh5] [MYSQL]
+SHOW FUNCTION STATUS WHERE Db='ibmshotel'
+
+[2020-05-06 16:35:19.814] [131184] [¾Æµêh5] [MYSQL]
+SET PROFILING=1;
+
+[2020-05-06 16:35:19.828] [131184] [¾Æµêh5] [MYSQL]
+SHOW STATUS
+
+[2020-05-06 16:35:19.845] [131184] [¾Æµêh5] [MYSQL]
+SHOW STATUS
+
+[2020-05-06 16:35:19.906] [131184] [¾Æµêh5] [MYSQL]
+show variables like 'log_bin'
+
+[2020-05-06 16:35:19.933] [131184] [¾Æµêh5] [MYSQL]
+SHOW STATUS
+
+[2020-05-06 16:35:19.949] [131184] [¾Æµêh5] [MYSQL]
+SELECT QUERY_ID, SUM(DURATION) AS SUM_DURATION FROM INFORMATION_SCHEMA.PROFILING GROUP BY QUERY_ID
+
+[2020-05-06 16:35:19.964] [131184] [¾Æµêh5] [MYSQL]
+SELECT STATE AS `×´Ì¬`, ROUND(SUM(DURATION),7) AS `ÆÚ¼ä`, CONCAT(ROUND(SUM(DURATION)/0.001089*100,3), '%') AS `°Ù·Ö±È` FROM INFORMATION_SCHEMA.PROFILING WHERE QUERY_ID=3 GROUP BY STATE ORDER BY SEQ
+
