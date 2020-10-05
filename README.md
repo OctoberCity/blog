@@ -1,10 +1,8 @@
-### 个人网站（重构以及学习）
-#### 1. 技术栈
-koa2 + typescript + oss + mysql + vue全家桶 ...(暂时就想到这么多)
-
-#### 2. 部署 
-
-
-
-#### 3. 目的
-- 前后端尝试使用typescript去构建逻辑，以及尝试移动端和web端的展示适配问题。   
+<!--
+ * @Author: your name
+ * @Date: 2020-10-05 11:42:15
+ * @LastEditTime: 2020-10-05 11:43:49
+ * @LastEditors: Please set LastEditors
+ * @Description: In User Settings Edit
+ * @FilePath: \blog\README.md
+-->
